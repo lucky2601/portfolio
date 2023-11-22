@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5a44b06d9f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/Free_Sample_By_Wix.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- <div class="head1">
+                img src="image/IMG_7534.heic"
+            </div> -->
+            <!-- <div class="image">
+                <img src="image/IMG_6671.jpeg.jpg" class="shape">
+            </div> -->
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Lucky</span><br>Raj.</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/ftt.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="detail">I'm Lucky Raj, and I consider myself exceptionally fortunate to be on a journey that combines my passion for technology with an ongoing pursuit of knowledge. Presently, I am engaged in pursuing a Bachelor of Technology (B.Tech) degree from Kalinga Institute of Industrial technology, and I am  happier about the professional path I've chosen.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021-current</span><br>Electronics and computer science engineering(ECS)</li>
+                            <li><span>2021</span><br>Python</li>
+                            <li><span>2022</span><br>C/C++ programming</li>
+                            <li><span>2022</span><br>DSA(C++ language)</li>
+                            <li><span>2023</span><br>UI/UX Designing</li>
+                            <li><span>2023</span><br>HTML</li>
+                            <li><span>2023</span><br>C++</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021</span><br>E-mun International(IP Delegates)</li>
+                            <li><span>2021</span><br>Python beginner to advanced by Coursera</li>
+                            <li><span>current</span><br>Bharat Intern</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-codepen"></i>
+                <h2>Web Design</h2>
+                <p> Web design is not just a profession for me; it's a passion that I'm nurturing and growing. I've always been captivated by the power of design to shape the digital world and create immersive online experiences. While I may not yet claim the title of an expert, I am firmly committed to developing my skills and evolving into a master of this craft.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bookmark"></i>
+                <h2>UI/UX Design</h2>
+                <p>User Interface (UI) and User Experience (UX) design is not just a career path for me; it's a love affair. I am deeply passionate about the art and science of crafting interfaces that are not only visually stunning but also profoundly user-centric. </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------------portfolio--------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/Code typing Customizable Cartoon Illustrations _ Bro Style.png">
+                <div class="layer">
+                    <h3>Web App</h3>
+                    <p>As an aspiring web app, I may not yet be an expert, but I'm driven by a burning passion to learn and a commitment to helping you bring your digital ideas to life. My web app development services are all about collaboration, growth, and a shared journey toward achieving your digital goals.
+                    </p>
+                    <a href="#"><i class="fa-light fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/Programming Customizable Cartoon Illustrations _ Bro Style.png">
+                <div class="layer">
+                    <h3>My sketch</h3>
+                    <p>Sketching is not just a pastime for me; it's a form of expression, a language of lines and shades through which I communicate my thoughts, emotions, and ideas. Within the confines of a blank page, I find limitless possibilities for self-expression and artistic exploration. On my journey, I've taken these sketches and turned them into visual stories.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-users-line"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/Signing in to user account Illustration.png">
+                <div class="layer">
+                    <h3>Online shopping app</h3>
+                    <p>This app gives you a best deal to buy any product.Our platform is a gateway to unparalleled savings. We believe that every online shopper deserves access to the best deals. Whether you're seeking the latest fashion trends, tech gadgets, home essentials, or more, we've got you covered.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ------------------------contact----------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> luckykumark52@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9334776648</p>
+                <div class="social-icon">
+                    <a href="https://www.linkedin.com/in/lucky-raj-137601246"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=" https://www.instagram.com/invites/contact/?i=dfwddlib7ohs&utm_content=3a2i5bv "><i class="fa-brands fa-instagram"></i></a>
+                    <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+                </div>
+                <a href="image/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form class="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="menu">
+        <div class="toogle">
+            <ion-icon name="share-social"></ion-icon>
+        </div>
+        <li style="--i:0;--clr:#1877f2">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        </li>
+    </div> -->
+    <div class="copyright">
+        <p>Copyright © Lucky<i class="fa-solid fa-heart"></i></p> 
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwc2eqT1d_7IMiCYR9vxqOaceDYu6fGsJPDMoK8Dz2Z4AXdsY63xN7bg4Ve02UA0lbMpw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
